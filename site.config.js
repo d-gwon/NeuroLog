@@ -4,23 +4,23 @@ const CONFIG = {
     name: "DaeunGwon",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "BCI Researcher",
-    bio: "I am a researcher specializing in brain-computer interfaces, with a strong background in neuroengineering and computer science.",
+    bio: "I am a BCI researcher, with a background in neuroengineering and computer science.",
     email: "danigwon@gmail.com",
-    linkedin: "http://www.linkedin.com/in/daeun-gwon-2254a827a",
+    linkedin: "www.linkedin.com/in/daeun-gwon-2254a827a",
     github: "",
     instagram: "",
   },
   projects: [
     {
       name: `NeuroLog`,
-      href: "https://github.com/d-gwon/NeuroLog/",
+      href: "https://artistic-hippodraco-869.notion.site/Daeun-Gwon-Ph-D-199550a56877807a8529ed3a8dfa44ba?pvs=4",
     },
   ],
   // blog setting (required)
   blog: {
     title: "NeuroLog",
     description: "welcome to my blog!",
-    scheme: "dark", // 'light' | 'dark' | 'system'
+    scheme: "light", // 'light' | 'dark' | 'system'
   },
 
   // CONFIG configration (required)
