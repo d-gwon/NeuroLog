@@ -4,7 +4,8 @@ const CONFIG = {
     name: "DaeunGwon",
     image: "/avatar.svg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "BCI Researcher",
-    bio: "I am a BCI researcher, with a background in neuroengineering and computer science.",
+    bio: "🧠 I’m a neuroengineer—still a work in progress, surviving one day at a time.
+#IDon’tKnowMyBrainAndNeitherDoYou", 
     email: "danigwon@gmail.com",
     linkedin: "www.linkedin.com/in/daeun-gwon-2254a827a",
     github: "",
