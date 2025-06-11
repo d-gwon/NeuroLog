@@ -56,6 +56,11 @@ const StyledWrapper = styled.div`
       align-items: center;
       > .wrapper {
         height: fit-content;
+        display: flex; /* 추가 */
+        flex-direction: column; /* 추가 */
+        align-items: center; /* 추가: 내부 요소들을 중앙 정렬 */
+        text-align: center; /* 추가: 텍스트 자체를 중앙 정렬 */
+
         > .top {
           font-size: 1.25rem;
           line-height: 1.75rem;
@@ -71,6 +76,11 @@ const StyledWrapper = styled.div`
         > .btm {
           font-size: 0.875rem;
           line-height: 1.25rem;
+          word-wrap: break-word; /* 긴 단어 자동 줄바꿈 */
+          overflow-wrap: break-word; /* 최신 표준 */
+          text-align: center; /* 텍스트를 가운데 정렬 */
+          white-space: normal; /* 줄바꿈 허용 */
+          width: 100%; 
         }
       }
     }
