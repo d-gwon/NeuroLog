@@ -19,6 +19,7 @@ const ProfileCard: React.FC<Props> = () => {
         <div className="mid">
           <div className=" name">{CONFIG.profile.name}</div>
           <div className="role">{CONFIG.profile.role}</div>
+          <div className="text-sm mb-2 bio">{CONFIG.profile.bio}</div>
           <div className="text-sm mb-2">{CONFIG.profile.bio}</div>
         </div>
       </div>
@@ -71,10 +72,13 @@ const StyledWrapper = styled.div`
         line-height: 1.25rem;
         color: ${({ theme }) => theme.colors.gray11};
       }
-      .bio {
+      .bio { // 이 부분에 bio 텍스트를 위한 스타일을 추가합니다.
         margin-bottom: 0.5rem;
         font-size: 0.875rem;
         line-height: 1.25rem;
+        word-wrap: break-word; // 이 속성을 추가합니다.
+        overflow-wrap: break-word; // 이 속성을 추가합니다.
+        white-space: normal; // 이 속성을 추가합니다.
       }
     }
   }
